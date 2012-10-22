@@ -5,12 +5,12 @@ all_from        'lib/Mojolicious/Plugin/MethodOverride.pm';
 readme_from;
 author          q{Bernhard Graf <graf@cpan.org>};
 license         'perl';
-repository      'http://github.com/augensalat/Mojolicious-Plugin-MethodOverride/tree/master';
+repository      'git://github.com/augensalat/mojolicious-plugin-methodoverride.git';
 
 build_requires  'Test::More';
 build_requires  'Test::Mojo';
 
-requires        'Mojolicious';
+requires        'Mojolicious' => '2.0';
 
 auto_install;
 

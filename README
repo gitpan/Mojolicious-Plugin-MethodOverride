@@ -2,7 +2,7 @@ NAME
     Mojolicious::Plugin::MethodOverride - Simulate HTTP Verbs
 
 VERSION
-    Version 0.001
+    Version 0.010
 
 SYNOPSIS
       package My::App;
@@ -26,16 +26,8 @@ DESCRIPTION
     header. It is also possible to define a query parameter for the same
     purpose.
 
-    A valid value for the HTTP verb in the header or query parameter is one
-    of:
-
-    GET
-    POST
-    PUT
-    DELETE
-    OPTIONS
-
-    It must be specified in UPPER case.
+    Any token built of US-ASCII letters is accepted as a valid value for the
+    HTTP verb.
 
 CONFIGURATION
     The default HTTP header to override the "HTTP POST" method is
@@ -87,11 +79,10 @@ SEE ALSO
     <http://code.google.com/apis/gdata/docs/2.0/basics.html>
 
 LICENSE AND COPYRIGHT
-    Copyright 2011 Bernhard Graf.
+    Copyright (C) 2012 Bernhard Graf.
 
-    This program is free software; you can redistribute it and/or modify it
-    under the terms of either: the GNU General Public License as published
-    by the Free Software Foundation; or the Artistic License.
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
     See http://dev.perl.org/licenses/ for more information.
 
