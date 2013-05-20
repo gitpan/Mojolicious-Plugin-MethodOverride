@@ -22,8 +22,8 @@ no_index:
     - inc
     - t
 requires:
-  Mojolicious: 2.0
+  Mojolicious: 3.21
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/augensalat/mojolicious-plugin-methodoverride.git
-version: 0.010
+version: 0.020
